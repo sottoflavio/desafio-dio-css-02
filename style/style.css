@@ -1,0 +1,288 @@
+*{
+    font-family: "roboto", sans-serif;
+    margin:0px;
+    padding: 0px;
+    
+}
+
+body{
+    margin: auto;
+}
+
+.cabecalho{
+    background-color: white;
+    height: 56px;
+    max-width: 1450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.menu-icon{
+    margin-left: 27px;
+    margin-right: 35px;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    width: 400px;
+    justify-content: flex-start;
+    margin-left:-50px;
+}
+
+.input-text{
+    height: 40px;
+    width: 348px;
+    border: 1px solid #cccccc;
+}
+
+.search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 56px;
+    background-color: #F8f8f8;
+    border: 1px solid #cccccc;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user-area{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile{
+    background-color: white;
+    margin-right: 24px;
+    border-radius: 50%;
+}
+
+.upload{
+    background-color: white;
+    margin-right: 28px;
+}
+
+.notification{
+    background-color: white;
+    margin-right: 27px;
+}
+
+.container{
+    display: flex;
+    max-width: 1450px;
+    padding-top: 28px;
+    background-color: #fbfbfb;
+    
+}
+
+.video{
+    margin-right: 25px;
+    width: 952px;
+    height:800px;
+    margin-left:75px;
+}
+
+.sidebar{
+    width: 390px;
+    height: 100%;
+}
+
+.video-frame{
+    width: 952px;
+    height: 537px;
+}
+
+.videozin{
+    height: 90px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.video-detail{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-video{
+    width: 871px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.box-canal{
+    display: flex;
+    margin-right: 34px;
+}
+
+.icon-canal{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    margin-right:12px;
+}
+
+.nome-canal{
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.inscritos{
+    font-family: "roboto", sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.button-click{
+    width: 159px;
+    height: 40px;
+    border: none;
+    background: #CC0000;
+    border-radius: 2px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+
+    margin-right: 44px;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    margin-right: 34px;
+    height: 24px;
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.dislike{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    margin-right: 34px;
+    height: 24px;
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.share{
+    display: flex;
+    margin-right: 34px;
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.share > img{
+    margin-right:5px
+}
+
+.download{
+    display: flex;
+    margin-right: 44px;
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.download > img{
+    margin-right:5px
+}
+
+.visualizacoes{
+    display: flex;
+    margin-top: 17px;
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.views{
+    margin-right: 17px;
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 900;
+}
+
+.descricao{
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+
+.preview{
+    width: 160px;
+    margin-right: 16px;
+    background-color: darkcyan;
+}
+
+.info-preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.preview-title{
+    font-family: "roboto", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.preview-channel{
+    font-family: "roboto", sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.preview-views{
+    font-family: "roboto", sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.preview-date{
+    font-family: "roboto", sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+}
